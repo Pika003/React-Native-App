@@ -8,7 +8,7 @@ import { dummyMessages } from '../constants';
 export default function HomeScreen() {
   const [messages ,setMessages] = useState(dummyMessages);
   const [recoding, setRecoding] = useState(false);
-  const [speaking, setSpeaking] = useState(true);
+  const [speaking, setSpeaking] = useState(false);
 
   const clear = () =>{
     setMessages([]);
